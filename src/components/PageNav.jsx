@@ -22,7 +22,7 @@ export default function PageNav() {
             <StyledNavLink to="/products">Feedback</StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="/login"><Button type="primary" >Login</Button></StyledNavLink>
+          <StyledNavLink to="/login"><Button type="primary" >Login / SignUp</Button></StyledNavLink>
         </li>
     </ul>
 
