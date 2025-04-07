@@ -6,10 +6,11 @@ import { StyledNavLink } from '../stylings/StyledNavLink'
 import { DIV } from '../stylings/DIV'
 
 export default function PageNav() {
+  const a=false;
   return (
     <DIV>
       <Navbar className={styles.nav}>
-          <Logo/>
+          <Logo />
     <span></span>
     <ul>
         <li>
@@ -21,9 +22,9 @@ export default function PageNav() {
         <li>
             <StyledNavLink to="/products">Feedback</StyledNavLink>
         </li>
-        <li>
+        {a ?<li>
           <StyledNavLink to="/login"><Button type="primary" >Login / SignUp</Button></StyledNavLink>
-        </li>
+        </li>:<Button type="primary">NEO</Button>}
     </ul>
 
  </Navbar>
